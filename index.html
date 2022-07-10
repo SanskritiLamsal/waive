@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Hello World Simple App</title>
-    </head>
-    <body>
-        <div>Hello World!</div>
-    </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Waiive</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="middle">
+  <h1>Waiive</h1>
+  <!--  Fancy inputs  -->
+  <div id="fancy-inputs">
+    <label class="input">
+      <input type="text">
+      <span><span>Fullname</span></span>
+    </label>
+    <label class="input">
+      <input type="text">
+      <span><span>Email</span></span>
+    </label>
+    <label class="input">
+      <input type="text">
+      <span><span>Liscense / Passport #</span></span>
+    </label>
+    
+  </div>
+  
+   <div id="fancy-radio">
+     <p>I'm applying for</p>
+    <input type="radio" name="group" id="questions" class="pull-left" style="display: none;">
+    <label class="radio questions" for="questions">Spring 2023</label>
+
+    <input type="radio" name="group" id="photo" class="pull-left" style="display: none;">
+    <label class="radio photo" for="photo">Fall 2023</label>
+
+
+    <input type="radio" name="group" id="photo" class="pull-left" style="display: none;">
+    <label class="radio photo" for="photo">Spring 2024</label>
+  </div>
+   
+  <button href="" class="btn">Submit</a>
+  <p></p><p></p>
+  <p>Congratulations! You've secured the waiver. </p>
+  <p>Remaining waiver for the day: 32</p>
+
+
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/script.js"></script>
+  <script src='js/api.js'></script>
+</body>
 </html>
